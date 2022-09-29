@@ -1,0 +1,8 @@
+---
+  - name: Playbook
+    hosts: localhost
+    connection: local
+    tasks:
+      - name: demo
+        debug:
+          msg: Hello World
